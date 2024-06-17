@@ -1,0 +1,129 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+	font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/fon.jpg);
+}
+
+header {
+    background-color: #255C49;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+	font-size: 36px;
+}
+
+header p {
+	font-size: 28px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.person-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	display: flex;
+}
+
+.main .menu {
+	width: 42%;
+}
+
+.main .info {
+	display: flex;
+	justify-content: right;
+	width: 60%;
+}
+
+.main .info img {
+	width: 40%;
+	padding: 20px 50px;
+	float: right;
+}
+
+.main .info .info_text h1 {
+	display: flex;
+	justify-content: right;
+	padding: 20px 0 0 0;
+	color: #255C49;
+}
+
+.main .info .info_text p {
+	font-size: 24px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 20px 0 0 0;
+    padding: 10px;
+    width: 100%;
+}
+
+nav ul li {
+    display: block;
+    margin: 0px 15px 40px 0;
+    padding: 0 0 0 0;
+    font-size: 32px;
+}
+
+nav ul li a {
+    color: #255C49;
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:hover{
+    background-color: #CBD7A9;
+    color: #255C49;
+    transition: 0.35s;
+    border-radius: 50px;
+}
+
+.credos {
+	padding: 0 0 0 20px;
+}
+
+.credos p {
+	font-size: 26px;
+}
+
+.credos h1 {
+	color: #255C49;
+}
+
+.credos blockquote {
+	font-size: 24px;
+	color: #255C49;
+}
